@@ -15,10 +15,10 @@ while True:
     ip = ".".join(map(str, (random.randint(0, 255) for _ in range(4))))
     url = "*****************************************************************************"
     b = "********="
-    c = str(random.randint(1950, 2000))
+    c = str(random.randint(**, **))
     d = "********"
     a = input(colors.yellow('tc kimlik?(çıkış q bas):'))
-    for token in range(175):
+    for token in range(**):
       tokenKey += random.choice(chars)
   
     if a == "q":
@@ -39,7 +39,7 @@ while True:
          -H 'origin: h***************************************************************************** \
          -H 'user-agent: %s' \
          -H 'x-requested-with: ****' \
-         -d '*****************************************************************************'""" % (user_agent,a,ip,tokenKey)).read()
+         -d '*****************************************************************************'""" % (user_agent,a,ip,***)).read()
         url2_json = json.loads(url2)
 
         url3 = os.popen('''curl --silent -XPOST ' + a + "'" + """*****************************************************************************""").read()
@@ -47,13 +47,13 @@ while True:
         timestamp = str(url3_json["dogum_tarih"])
 
 
-        print(colors.cyan('ad: '+ data["results"]["kullaniciAdi"]))
-        print(colors.cyan('tc: ' + str(data["results"]["tcNo"])))
-        print(colors.cyan('aile sıra no: ' + str(data["results"]["aileSiraNo"])))
-        print(colors.cyan('cilt no: ' + str(data["results"]["ciltNo"])))
-        print(colors.cyan('sıra no: ' + str(data["results"]["siraNo"])))
-        print(colors.cyan('dogum yılı: ' + str(data["results"]["dogumYili"])))
-        print(colors.cyan('cinsiyet: ' + str(data["results"]["cinsiyet"])))
+        print(colors.cyan('ad: '+ data["results"]["**"]))
+        print(colors.cyan('tc: ' + str(data["results"]["**"])))
+        print(colors.cyan('aile sıra no: ' + str(data["results"]["**"])))
+        print(colors.cyan('cilt no: ' + str(data["results"]["**"])))
+        print(colors.cyan('sıra no: ' + str(data["results"]["**"])))
+        print(colors.cyan('dogum yılı: ' + str(data["results"]["**"])))
+        print(colors.cyan('cinsiyet: ' + str(data["results"]["**"])))
         print(colors.cyan('adres: ' + url2_json["adres"]))
         print(colors.cyan('*adres2: ' + str(url3_json["yildizli_adres"])))
         print(colors.cyan('*baba adı: ' + str(url3_json["baba"])))
