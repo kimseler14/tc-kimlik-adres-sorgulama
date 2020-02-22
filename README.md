@@ -1,4 +1,7 @@
 # tc-kimlik-adres-sorgulama
+
+****iptal*******
+
 detaylı tc kimlik sorgular. ilgilenen kişilere sorgulama apisi sağlanır.
 
 
